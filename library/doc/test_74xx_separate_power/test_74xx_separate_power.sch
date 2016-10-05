@@ -3,10 +3,12 @@ LIBS:test_74xx_separate_power-rescue
 LIBS:74xx
 LIBS:74xgxx
 LIBS:old_74xx
+LIBS:device
+LIBS:linear
 LIBS:test_74xx_separate_power-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 5200 8000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -154,6 +156,65 @@ F 1 "74LS90" H 3400 3660 50  0000 C CNN
 F 2 "" H 3400 3700 50  0000 C CNN
 F 3 "" H 3400 3700 50  0000 C CNN
 	2    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57F54C41
+P 1400 3600
+F 0 "R?" V 1480 3600 50  0000 C CNN
+F 1 "R" V 1400 3600 50  0000 C CNN
+F 2 "" V 1330 3600 50  0000 C CNN
+F 3 "" H 1400 3600 50  0000 C CNN
+	1    1400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PNP_BCE Q?
+U 1 1 57F54CCC
+P 1800 3600
+F 0 "Q?" H 2100 3650 50  0000 R CNN
+F 1 "Q_PNP_BCE" H 2400 3550 50  0000 R CNN
+F 2 "" H 2000 3700 50  0000 C CNN
+F 3 "" H 1800 3600 50  0000 C CNN
+	1    1800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 57F54D3D
+P 900 3600
+F 0 "R?" H 930 3620 50  0000 L CNN
+F 1 "R_Small" H 930 3560 50  0000 L CNN
+F 2 "" H 900 3600 50  0000 C CNN
+F 3 "" H 900 3600 50  0000 C CNN
+	1    900  3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM741 U?
+U 1 1 57F54DE1
+P 1700 4100
+F 0 "U?" H 1700 4350 50  0000 L CNN
+F 1 "LM741" H 1700 4250 50  0000 L CNN
+F 2 "" H 1750 4150 50  0000 C CNN
+F 3 "" H 1850 4250 50  0000 C CNN
+	1    1700 4100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2800 3300 500  3300
+Wire Notes Line
+	500  4600 2800 4600
+$Comp
+L C C?
+U 1 1 57F54F85
+P 2600 3700
+F 0 "C?" H 2625 3800 50  0000 L CNN
+F 1 "C" H 2625 3600 50  0000 L CNN
+F 2 "" H 2638 3550 50  0000 C CNN
+F 3 "" H 2600 3700 50  0000 C CNN
+	1    2600 3700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

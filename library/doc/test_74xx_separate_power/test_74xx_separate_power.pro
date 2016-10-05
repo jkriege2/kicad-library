@@ -1,4 +1,4 @@
-update=05.10.2016 20:47:08
+update=05.10.2016 21:00:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ LibName1=test_74xx_separate_power-rescue
 LibName2=../../74xx
 LibName3=../../74xgxx
 LibName4=old_74xx
+LibName5=../../device
+LibName6=../../linear
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
