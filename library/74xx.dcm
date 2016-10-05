@@ -781,6 +781,7 @@ $ENDCMP
 $CMP 74LS90
 D BCD Counter ( div 2 & div 5 )
 K TTL CNT CNT4
+F http://www.ti.com/lit/ds/symlink/sn74ls90.pdf
 $ENDCMP
 #
 $CMP 74LS91

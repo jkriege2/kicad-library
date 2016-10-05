@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP old_74LS00
+D Quad nand2
+K TTL nand2
+$ENDCMP
+#
+$CMP old_74LS90
+D BCD Counter ( div 2 & div 5 )
+K TTL CNT CNT4
+$ENDCMP
+#
+#End Doc Library
